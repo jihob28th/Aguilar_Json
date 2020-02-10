@@ -18,10 +18,10 @@ $list = $data['shoes'];
 foreach($list as $value){
     ?>
     <tr>
-        <td><?php echo $value['name'];?></td>
-        <td><?php echo $value['brand'];?></td>
-        <td><?php echo $value['type'];?></td>
-        <td><?php echo $value['cost'];?></td>
+        <td><?php echo $value['shoe_Name'];?></td>
+        <td><?php echo $value['shoe_Brand'];?></td>
+        <td><?php echo $value['shoe_Type'];?></td>
+        <td><?php echo $value['shoe_Cost'];?></td>
     </tr>
 <?php
 }
