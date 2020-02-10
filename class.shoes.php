@@ -11,7 +11,7 @@ class shoes{
 		}
 	}
 	
-	public function get_hoes(){
+	public function get_shoes(){
 		$sql = "SELECT * FROM tbl_shoes";
 		$result = mysqli_query($this->database,$sql);
 		while($row = mysqli_fetch_assoc($result)){
