@@ -12,7 +12,7 @@ class shoes{
 	}
 	
 	public function get_hoes(){
-		$sql = "SELECT * FROM tblshoes";
+		$sql = "SELECT * FROM tbl_shoes";
 		$result = mysqli_query($this->database,$sql);
 		while($row = mysqli_fetch_assoc($result)){
 			$list[] = $row;
